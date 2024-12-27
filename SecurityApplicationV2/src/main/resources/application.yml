@@ -1,0 +1,15 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: ${CLIENT_ID}
+            client-secret: ${CLIENT_SECRET}
+          github:
+            client-id: ${CLIENT_ID}
+            client-secret: ${CLIENT_SECRET}
+          facebook:
+            client-id: ${CLIENT_ID}
+            client-secret: ${CLIENT_SECRET}
+            # Due to security reasons need to prevent keeping client_id and client_secret here, these are just placeholders
